@@ -1,0 +1,4 @@
+framework module CTSimplePing {    
+    header "CTSimplePing.h"
+    export *
+}
