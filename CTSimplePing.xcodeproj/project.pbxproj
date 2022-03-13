@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0F6956027DD30BE000C3B96 /* CTSimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F6955D27DD30BE000C3B96 /* CTSimplePing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0F6956127DD30BE000C3B96 /* CTSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F6955F27DD30BE000C3B96 /* CTSimplePing.m */; };
+		D0F6956027DD30BE000C3B96 /* CTSimplePingClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F6955D27DD30BE000C3B96 /* CTSimplePingClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0F6956127DD30BE000C3B96 /* CTSimplePingClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F6955F27DD30BE000C3B96 /* CTSimplePingClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D0F6954827DD2AA6000C3B96 /* CTSimplePing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTSimplePing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0F6955D27DD30BE000C3B96 /* CTSimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSimplePing.h; sourceTree = "<group>"; };
-		D0F6955F27DD30BE000C3B96 /* CTSimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSimplePing.m; sourceTree = "<group>"; };
+		D0F6955D27DD30BE000C3B96 /* CTSimplePingClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSimplePingClient.h; sourceTree = "<group>"; };
+		D0F6955F27DD30BE000C3B96 /* CTSimplePingClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSimplePingClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +47,8 @@
 		D0F6955C27DD30BE000C3B96 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D0F6955D27DD30BE000C3B96 /* CTSimplePing.h */,
-				D0F6955F27DD30BE000C3B96 /* CTSimplePing.m */,
+				D0F6955D27DD30BE000C3B96 /* CTSimplePingClient.h */,
+				D0F6955F27DD30BE000C3B96 /* CTSimplePingClient.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -60,7 +60,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0F6956027DD30BE000C3B96 /* CTSimplePing.h in Headers */,
+				D0F6956027DD30BE000C3B96 /* CTSimplePingClient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0F6956127DD30BE000C3B96 /* CTSimplePing.m in Sources */,
+				D0F6956127DD30BE000C3B96 /* CTSimplePingClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

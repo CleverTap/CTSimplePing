@@ -6,7 +6,7 @@
  An object wrapper around the low-level BSD Sockets ping function.
  */
 
-#import "CTSimplePing.h"
+#import "CTSimplePingClient.h"
 
 #include <sys/socket.h>
 #include <netinet/in.h>
@@ -98,7 +98,7 @@ static uint16_t in_cksum(const void *buffer, size_t bufferLen) {
 
 #pragma mark * SimplePing
 
-@interface CTSimplePing ()
+@interface CTSimplePingClient ()
 
 // read/write versions of public properties
 
@@ -124,7 +124,7 @@ static uint16_t in_cksum(const void *buffer, size_t bufferLen) {
 
 @end
 
-@implementation CTSimplePing
+@implementation CTSimplePingClient
 
 - (instancetype)initWithHostName:(NSString *)hostName {
     NSParameterAssert(hostName != nil);
@@ -559,10 +559,10 @@ static uint16_t in_cksum(const void *buffer, size_t bufferLen) {
 static void SocketReadCallback(CFSocketRef s, CFSocketCallBackType type, CFDataRef address, const void *data, void *info) {
     // This C routine is called by CFSocket when there's data waiting on our
     // ICMP socket.  It just redirects the call to Objective-C code.
-    CTSimplePing *    obj;
+    CTSimplePingClient *    obj;
     
-    obj = (__bridge CTSimplePing *) info;
-    assert([obj isKindOfClass:[CTSimplePing class]]);
+    obj = (__bridge CTSimplePingClient *) info;
+    assert([obj isKindOfClass:[CTSimplePingClient class]]);
     
 #pragma unused(s)
     assert(s == obj.socket);
@@ -709,10 +709,10 @@ static void SocketReadCallback(CFSocketRef s, CFSocketCallBackType type, CFDataR
 static void HostResolveCallback(CFHostRef theHost, CFHostInfoType typeInfo, const CFStreamError *error, void *info) {
     // This C routine is called by CFHost when the host resolution is complete.
     // It just redirects the call to the appropriate Objective-C method.
-    CTSimplePing *    obj;
+    CTSimplePingClient *    obj;
     
-    obj = (__bridge CTSimplePing *) info;
-    assert([obj isKindOfClass:[CTSimplePing class]]);
+    obj = (__bridge CTSimplePingClient *) info;
+    assert([obj isKindOfClass:[CTSimplePingClient class]]);
     
 #pragma unused(theHost)
     assert(theHost == obj.host);
