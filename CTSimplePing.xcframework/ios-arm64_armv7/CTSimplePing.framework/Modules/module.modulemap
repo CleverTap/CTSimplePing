@@ -1,4 +1,4 @@
 framework module CTSimplePing {    
-    header "CTSimplePing.h"
+    header "CTSimplePingClient.h"
     export *
 }

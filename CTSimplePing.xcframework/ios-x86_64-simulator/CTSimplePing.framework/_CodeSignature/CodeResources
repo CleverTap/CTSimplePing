@@ -4,9 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/CTSimplePing.h</key>
+		<key>Headers/CTSimplePingClient.h</key>
 		<data>
-		wXuCXjNmLps6WLanH5x7zVbgNWI=
+		qyukcnvUeza/9zCa/DHsksLNNA4=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		HnOzVwOaz3Fg09G5yvb4G7tSBgE=
+		JKKqW34oQU3KVpOgogdDjcWhCDk=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/CTSimplePing.h</key>
+		<key>Headers/CTSimplePingClient.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wXuCXjNmLps6WLanH5x7zVbgNWI=
+			qyukcnvUeza/9zCa/DHsksLNNA4=
 			</data>
 			<key>hash2</key>
 			<data>
-			B4TCyegfutq1I9wltQ5WjiEm5xUs4OzYip9hDcB2bzA=
+			JJbWSAydFyy3xY+mJPj1hHPNVi6gytmKIaJdopy0g6w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HnOzVwOaz3Fg09G5yvb4G7tSBgE=
+			JKKqW34oQU3KVpOgogdDjcWhCDk=
 			</data>
 			<key>hash2</key>
 			<data>
-			TWw24KYnP+KeE8KJkubd/r5oNB4RzQaNA2Gl9SLc36s=
+			MrL/aIYlYhITa+LrBBvjEgwbqO9Zx/ODfz5sBwMdYl8=
 			</data>
 		</dict>
 	</dict>
