@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name                      = "CTSimplePing"
-s.version                   = '1.0.0'
+s.version                   = '1.0.1'
 s.summary                   = "Basic wrapper around iOS Simple Ping"
 s.homepage                  = "https://github.com/CleverTap/CTSimplePing"
 s.source                    = { :http => "https://github.com/CleverTap/CTSimplePing/releases/download/#{s.version}/CTSimplePing.xcframework.zip" }
@@ -11,9 +11,6 @@ s.module_name               = 'CTSimplePing'
 
 s.platform                  = :ios, '10.0'
 s.ios.deployment_target     = '10.0'
-
-s.pod_target_xcconfig       = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
-s.user_target_xcconfig      = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
 
 s.vendored_frameworks       = 'CTSimplePing.xcframework'
 
