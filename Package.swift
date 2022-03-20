@@ -17,7 +17,7 @@ let package = Package(
         .binaryTarget(
             name: "CTSimplePing",
             url: "https://github.com/CleverTap/CTSimplePing/releases/download/1.0.0/CTSimplePing.xcframework.zip",
-            checksum: "f3519609b70e956081cff765dffbb6ffb505ad2fbeadf40ce9fea3562fe7ae40"
+            checksum: "407f74b2c02e1c9138df29187464e8237ec869b2dd97f1e0cefdb361a131c98e"
         )
     ]
 )
