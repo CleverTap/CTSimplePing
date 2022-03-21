@@ -86,7 +86,7 @@ A basic wrapper around [iOS Simple Ping](https://developer.apple.com/library/arc
 
 ### [Swift Package Manager](https://swift.org/package-manager/) 
 
-Add the `https://github.com/CleverTap/CTSimplePing` url to your project's Swift packages
+Add the `https://github.com/CleverTap/CTSimplePing.git` url to your project's Swift packages
 
 ### [CocoaPods](https://cocoapods.org)
 
