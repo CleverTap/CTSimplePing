@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SMEoe7fklvw/nR79zhbFEzW/+70=
+		kW0nIM1WfdRcdheWJ8MLnPZK2IY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -21,10 +21,6 @@
 	<dict>
 		<key>Headers/CTSimplePingClient.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3RHAkW6Sej5Rv/TtRrpaMOvHdeU=
-			</data>
 			<key>hash2</key>
 			<data>
 			iv6cRoDJjYEc0SICV4Ds1rG4EuJZR/fDQn9i3gc/qpk=
@@ -32,10 +28,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JKKqW34oQU3KVpOgogdDjcWhCDk=
-			</data>
 			<key>hash2</key>
 			<data>
 			MrL/aIYlYhITa+LrBBvjEgwbqO9Zx/ODfz5sBwMdYl8=
