@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name                      = "CTSimplePing"
-s.version                   = '1.0.1'
+s.version                   = '1.0.2'
 s.summary                   = "Basic wrapper around iOS Simple Ping"
 s.homepage                  = "https://github.com/CleverTap/CTSimplePing"
 s.source                    = { :http => "https://github.com/CleverTap/CTSimplePing/releases/download/#{s.version}/CTSimplePing.xcframework.zip" }
@@ -9,8 +9,8 @@ of this software and associated documentation files (the "Software"), to deal in
 s.author                    = { "CleverTap" => "http://www.clevertap.com" }
 s.module_name               = 'CTSimplePing'
 
-s.platform                  = :ios, '10.0'
-s.ios.deployment_target     = '10.0'
+s.platform                  = :ios, '12.0'
+s.ios.deployment_target     = '12.0'
 
 s.vendored_frameworks       = 'CTSimplePing.xcframework'
 
