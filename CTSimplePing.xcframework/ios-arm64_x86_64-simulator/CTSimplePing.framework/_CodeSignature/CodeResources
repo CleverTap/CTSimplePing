@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/CTSimplePingClient.h</key>
 		<data>
-		qyukcnvUeza/9zCa/DHsksLNNA4=
+		3RHAkW6Sej5Rv/TtRrpaMOvHdeU=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EkSbjx9IzPDI6TYTLKLhtHRo4lw=
+		kW0nIM1WfdRcdheWJ8MLnPZK2IY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -21,21 +21,13 @@
 	<dict>
 		<key>Headers/CTSimplePingClient.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qyukcnvUeza/9zCa/DHsksLNNA4=
-			</data>
 			<key>hash2</key>
 			<data>
-			JJbWSAydFyy3xY+mJPj1hHPNVi6gytmKIaJdopy0g6w=
+			iv6cRoDJjYEc0SICV4Ds1rG4EuJZR/fDQn9i3gc/qpk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JKKqW34oQU3KVpOgogdDjcWhCDk=
-			</data>
 			<key>hash2</key>
 			<data>
 			MrL/aIYlYhITa+LrBBvjEgwbqO9Zx/ODfz5sBwMdYl8=

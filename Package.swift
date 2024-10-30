@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "CTSimplePing",
     platforms: [
-        .iOS(.v10)
+        .iOS(.v12)
     ],
     products: [
         .library(
@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CTSimplePing",
-            url: "https://github.com/CleverTap/CTSimplePing/releases/download/1.0.1/CTSimplePing.xcframework.zip",
-            checksum: "c1472db830a717aef2fd6c9f7b221c040dc085e12e63cf9fe3a2bdd4b11422d9"
+            url: "https://github.com/CleverTap/CTSimplePing/releases/download/1.0.2/CTSimplePing.xcframework.zip",
+            checksum: "113b8c442e324cd5da05ebeda8b97a1fc78fb574d86bfd4d39bb0d35bacf52f2"
         )
     ]
 )
